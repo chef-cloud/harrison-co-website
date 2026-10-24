@@ -1000,3 +1000,93 @@ h2 {
     animation-iteration-count: 1 !important;
   }
 }
+
+.weekly.section-light,
+.process.section-stone,
+.about.section-light,
+.enquiry.section-stone {
+  background: var(--graphite);
+  color: var(--ivory);
+}
+
+.weekly .eyebrow-dark,
+.process .eyebrow-dark,
+.about .eyebrow-dark,
+.enquiry .eyebrow-dark,
+.weekly .point-number,
+.process .step-number,
+.about .signature span:last-child,
+.enquiry .launch-label {
+  color: var(--champagne);
+}
+
+.weekly .weekly-copy > p:not(.eyebrow),
+.weekly .service-point p,
+.process .step p,
+.about .about-copy,
+.enquiry .enquiry-inner > p:not(.eyebrow),
+.enquiry .launch-copy {
+  color: var(--silver);
+}
+
+.weekly .service-points,
+.process .steps-grid {
+  border-color: rgba(241, 239, 234, 0.22);
+}
+
+.process .step + .step {
+  border-left-color: rgba(241, 239, 234, 0.19);
+}
+
+.enquiry .button-dark-outline {
+  border-color: var(--ivory);
+  color: var(--ivory);
+}
+
+.enquiry .button-dark-outline:hover {
+  background: var(--ivory);
+  color: var(--graphite);
+}
+
+.enquiry .button-facebook {
+  border-color: rgba(241, 239, 234, 0.3);
+  color: var(--ivory);
+  background: rgba(241, 239, 234, 0.08);
+}
+
+.enquiry .button-facebook:hover {
+  border-color: var(--ivory);
+  background: var(--ivory);
+  color: var(--graphite);
+}
+
+.enquiry .enquiry-email {
+  border-bottom-color: rgba(241, 239, 234, 0.4);
+  color: var(--ivory);
+}
+
+.enquiry .enquiry-email:hover {
+  border-bottom-color: var(--ivory);
+}
+
+@media (max-width: 980px) {
+  .weekly .service-point:nth-child(3),
+  .weekly .service-point:nth-child(4) {
+    border-top-color: rgba(241, 239, 234, 0.18);
+  }
+}
+
+@media (max-width: 760px) {
+  .process .step:nth-child(3),
+  .process .step:nth-child(4) {
+    border-top-color: rgba(241, 239, 234, 0.19);
+  }
+}
+
+@media (max-width: 480px) {
+  .weekly .service-point,
+  .weekly .service-point:nth-child(3),
+  .weekly .service-point:nth-child(4) {
+    border-top-color: rgba(241, 239, 234, 0.18);
+  }
+}

@@ -370,6 +370,67 @@ button {
   max-width: 470px;
 }
 
+.weekly-pricing {
+  margin-top: clamp(4rem, 8vw, 7rem);
+  padding-top: clamp(2rem, 4vw, 3.5rem);
+  border-top: 1px solid rgba(241, 239, 234, 0.22);
+}
+
+.weekly-pricing-copy {
+  max-width: 780px;
+}
+
+.weekly-pricing h2 {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  line-height: 1.08;
+}
+
+.weekly-pricing-copy > p {
+  margin: 1.15rem 0 0;
+  color: var(--silver);
+  font-size: 0.87rem;
+  line-height: 1.9;
+}
+
+.weekly-pricing-intro strong {
+  color: var(--ivory);
+  font-family: var(--font-editorial);
+  font-size: 1.35rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.weekly-pricing-included-title {
+  margin: 2rem 0 0;
+  color: var(--champagne);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.weekly-pricing-included {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--silver);
+  font-size: 0.87rem;
+  line-height: 1.9;
+}
+
+.weekly-pricing-included li::marker {
+  color: var(--champagne);
+}
+
+.weekly-pricing a {
+  border-bottom: 1px solid rgba(241, 239, 234, 0.4);
+  color: var(--ivory);
+  transition: border-color 180ms ease, color 180ms ease;
+}
+
+.weekly-pricing a:hover {
+  border-color: var(--champagne);
+  color: var(--champagne);
+}
+
 h2 {
   margin: 0;
   font-family: var(--font-editorial);
